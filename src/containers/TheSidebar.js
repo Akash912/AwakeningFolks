@@ -27,11 +27,8 @@ const TheSidebar = () => {
       onShowChange={(val) => dispatch({type: 'set', sidebarShow: val })}
     >
       <CSidebarBrand className="d-md-down-none" to="/">
-        <CIcon
-          className="c-sidebar-brand-full"
-          name="logo-negative"
-          height={35}
-        />
+        <div>Awakening Folks</div>
+        <img src={'avatars/AF.jpg'} width="50" height="60" style={{width:'30px',height:'20px' , marginLeft:'10px'}} className="c-avatar-img" alt="admin@bootstrapmaster.com" />
         <CIcon
           className="c-sidebar-brand-minimized"
           name="sygnet"
